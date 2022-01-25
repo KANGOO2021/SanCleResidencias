@@ -1,0 +1,42 @@
+{
+
+    "name": "sancleresidencias",
+
+    "version": "1.0.0",
+
+    "description": "Proyecto final",
+
+    "main": "index.js",
+
+    "scripts": {
+
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+        "start": "node index.js",
+
+        "dev": "nodemon index.js"
+
+    },
+
+    "author": "Sergio",
+
+    "license": "ISC",
+
+    "dependencies": {
+
+        "dotenv": "^10.0.0",
+
+        "express": "^4.17.1",
+
+        "knex": "^0.95.15",
+
+        "nodemailer": "^6.7.2",
+
+        "path": "^0.12.7",
+
+        "pg": "^8.7.1"
+
+    }
+
+}
+

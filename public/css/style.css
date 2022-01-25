@@ -1,0 +1,367 @@
+@media (max-width: 1400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    header {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .bars {
+        display: none;
+    }
+    .navbar {
+        background-color: white;
+    }
+    .menu {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        line-height: 70px;
+        border: black 2px solid;
+        border-radius: 18px;
+    }
+    .menu li {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        border-radius: 15px;
+    }
+    .menu li:hover {
+        background-color: rgb(0, 107, 149);
+    }
+    .menu li a {
+        color: #1a261c;
+    }
+    .menu li a:hover {
+        color: #ffffff;
+    }
+    .dropdown {
+        font-size: 16px;
+        color: #1a261c;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(233, 229, 229);
+        position: absolute;
+        margin-left: -25px;
+        width: 16%;
+        border-radius: 15px;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        background-color: rgb(179, 56, 56);
+        border-radius: 15px;
+        text-align: center;
+    }
+    .dropdown:hover {
+        color: #ffffff;
+        text-align: center;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .title {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .title h1 {
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .title span {
+        font-weight: 100;
+    }
+    .title h3 {
+        font-size: 24px;
+        margin-top: 20px;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+    .section {
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        background-image: url(../img/SanClemente1.jpg);
+        border-radius: 15px;
+    }
+    .p1 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        background-color: rgb(112, 180, 241);
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 45px;
+        text-align: center;
+    }
+    .p2 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        background-color: rgb(23, 120, 242);
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 400px;
+        margin-bottom: 200px;
+        margin-right: 10px;
+    }
+    .tex2 {
+        display: flex;
+        justify-content: center;
+    }
+    .sitios {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #face {
+        margin-bottom: -435px;
+    }
+    .btn {
+        background-color: rgb(112, 180, 241);
+        padding: 10px;
+        border-radius: 15px;
+        text-decoration: none;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .mm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tittle2 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    hr {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer {
+        text-align: center;
+        margin: 10px;
+    }
+    .fsection {
+        background-image: url(../img/fondoform2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: monospace;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formContact {
+        width: 400px;
+        background: rgba(255, 255, 255, 0.4);
+        box-sizing: border-box;
+        padding: 20px 30px;
+        border-radius: 10px;
+    }
+    .ftittle {
+        color: rgb(74, 108, 183);
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    input,
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 7px;
+        box-sizing: border-box;
+        border: black 1px solid;
+        font-size: 14px;
+        background-color: white;
+    }
+    label {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .button {
+        background-color: rgb(74, 108, 183);
+        color: white;
+        font-weight: bold;
+    }
+    .button:hover {
+        cursor: pointer;
+    }
+    .contact {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        box-sizing: border-box;
+        font-family: monospace;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        background-image: url(../img/contacto9.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    #icon1 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        color: rgb(74, 108, 183);
+        border-radius: 50%;
+    }
+    #icon2 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        color: rgb(187, 79, 16);
+        border-radius: 50%;
+    }
+    #icon3 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        color: rgb(77, 167, 53);
+        border-radius: 100%;
+    }
+    #icon4 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        color: rgb(231, 168, 73);
+        border-radius: 50%;
+    }
+    #hrcontact {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .traslados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        font-family: monospace;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        width: 90%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    #icon5 {
+        font-size: 100px;
+        margin-bottom: 10px;
+        color: rgb(74, 108, 183);
+        border-radius: 50%;
+    }
+    #icon6 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color: rgb(231, 168, 73);
+        border-radius: 50%;
+    }
+    #icon7 {
+        font-size: 120px;
+        margin-bottom: 10px;
+        color: rgb(170, 18, 30);
+        border-radius: 100%;
+    }
+    #icon8 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color: rgb(231, 168, 73);
+        border-radius: 50%;
+    }
+    .dicons {
+        display: flex;
+    }
+    .tsection {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        margin-top: 50px;
+    }
+    .ttittle {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .tp {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./img/logo..png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/95feab0b6e.js" crossorigin="anonymous"></script>
+    <title>Consultas y Reservas</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="title">
+            <h1><span>SANCLE</span>RESIDENCIAS</h1>
+            <hr style="width:100%" id="hr">
+            <h3>ALQUILER DEPARTAMENTOS SAN CLEMENTE DEL TUYÚ</h3>
+        </div>
+    </header>
+    <header class="bars">
+        <input type="checkbox" id="btnh">
+        <label for="btnh" id="check"><i class="fas fa-bars"></i> Menú</label>
+    </header>
+
+    <nav class="navbar" id="navbarhh">
+
+        <ul class="menu">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li class="content">
+                <div class="dropdown">
+                    RESIDENCIAS
+                    <i style="margin-left: 5px" class="fa fa-caret-down"></i>
+
+                    <div class="dropdown-content">
+                        <a href="./arcoiris.html">ARCOIRIS</a>
+                        <a href="./medanos.html">MÉDANOS</a>
+                    </div>
+                </div>
+
+            </li>
+            <li>
+                <a href="./traslados.html">TRASLADOS</a>
+            </li>
+            <li>
+                <a href="./consultas.html">CONSULTAS</a>
+            </li>
+            <li>
+                <a href="./contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+
+    </nav>
+    <section class="fsection" id="consultas">
+
+        <form action="/mensajes" method="post" class="formContact">
+            <div class="ftittle">
+                <h2>Consúltenos para su Reserva
+                </h2>
+            </div>
+            <div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su Nombre" id="nombre" required>
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Ingrese su email" id="email" required>
+            </div>
+
+            <div>
+                <label>Cel/Whatsapp:</label>
+                <input type="number" name="telefono" placeholder="Ingrese su número" id="telefono" required>
+            </div>
+            <div>
+                <label>Desde:</label>
+                <input type="date" name="fecha_ingreso" placeholder="Fecha ingreso" id="fecha_ingreso" required>
+            </div>
+            <div>
+                <label>Hasta:</label>
+                <input type="date" name="fecha_salida" placeholder="Fecha salida" id="fecha_salida" required>
+            </div>
+            <div>
+                <label>Mensaje:</label>
+                <textarea name="mensaje" placeholder="Escribe aquí su consulta" id="mensaje" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="ENVIAR" class="button" id="send">
+            </div>
+
+        </form>
+    </section>
+    <hr>
+
+
+    <footer class="footer">
+        <span>&copy; 2021</span>
+        <span>desarrollado por <span>S&M</span></span>
+        <address>
+                Buenos Aires- Argentina
+        
+            </address>
+
+    </footer>
+
+
+
+
+    <script src="./js/consultas.js"></script>
+    <script src="./js/formsend.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+
+</html>

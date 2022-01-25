@@ -1,0 +1,25 @@
+//Script para generar la base de datos en pgAdmin 4(Posgres sql)
+
+create table formulario(
+Id_form serial not null,
+nombre varchar(50) not null,
+email varchar(100) not null,
+telefono varchar(30) not null,
+fecha_ingreso date not null,
+fecha_salida date not null,
+mensaje varchar(300) not null,
+primary key (Id_form)
+)
+
+//seleccionar tabla
+select * from formulario;
+
+//borrar tabla
+drop table formulario;
+
+
+//ejemplos para insertar datos
+insert into formulario(nombre, email, telefono, fecha_ingreso, fecha_salida, mensaje) values ('Sergio', 'ser2004munoz@yahoo.com.ar','1140679793','2022-01-02','2022-01-09', 'hola que tal!')
+insert into formulario(nombre, email, telefono, fecha_ingreso, fecha_salida, mensaje) values ('Mateo', 'mateo@yahoo.com.ar','11111111','2022-01-09','2022-01-16', 'Consulta...')
+insert into formulario(nombre, email, telefono, fecha_ingreso, fecha_salida, mensaje) values ('Julieta', 'julieta@gmail.com','22222222','2022-01-16','2022-01-23', 'Buenas, quería saber:')
+insert into formulario(nombre, email, telefono, fecha_ingreso, fecha_salida, mensaje) values ('Catalina', 'catalina@hotmail.com','33333333','2022-01-23','2022-01-30', 'Hola,¿cuánto sale?')
