@@ -34,7 +34,7 @@ const formulariomensajes = async(req, res) => {
             secure: true,
             auth: {
                 user: "ser2016munoz@gmail.com",
-                pass: "vmnwrvlsklrhqrkf",
+                pass: "mwlsgphiljaccajb",
             }
         });
         let info = await transporter.sendMail({
